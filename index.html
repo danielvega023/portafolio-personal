@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio - Daniel Vega</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="img/shorticon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#inicio" class="nav-logo">Mi Portafolio</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#inicio" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#acerca" class="nav-link">Acerca de mí</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portafolio" class="nav-link">Portafolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#blog" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contacto" class="nav-link">Contacto</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Inicio -->
+    <section id="inicio" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Mi nombre es <span class="highlight">Daniel Alberto Vega Sandoval</span></h1>
+                <p class="hero-subtitle">Estudiante de Desarrollo Web</p>
+                <p class="hero-motto">"Aprendiendo y creciendo en el mundo del desarrollo web"</p>
+                <a href="#portafolio" class="btn-primary">Ver mis proyectos</a>
+            </div>
+            <div class="hero-image">
+                <img src="img/avatar.jpeg" alt="Sin foto por el momento" class="avatar">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Acerca de mí -->
+    <section id="acerca" class="about">
+        <div class="container">
+            <h2 class="section-title">Acerca de mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Soy un estudiante apasionado por el desarrollo web, actualmente aprendiendo y mejorando mis habilidades en HTML, CSS, JavaScript y otras tecnologías web.</p>
+                    <p>Mi objetivo es convertirme en un desarrollador full-stack y crear soluciones innovadoras que impacten positivamente en la vida de las personas.</p>
+                    
+                    <h3>Habilidades Técnicas</h3>
+                    <div class="skills">
+                        <div class="skill-category">
+                            <h4>Frontend</h4>
+                            <ul>
+                                <li>HTML5 & CSS3</li>
+                                <li>JavaScript (ES6+)</li>
+                                <li>Responsive Design</li>
+                                <li>SCSS/SASS</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Herramientas</h4>
+                            <ul>
+                                <li>Git & GitHub</li>
+                                <li>VS Code</li>
+                                <li>Live Server</li>
+                                <li>Vercel/Netlify</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>En Aprendizaje</h4>
+                            <ul>
+                                <li>React</li>
+                                <li>Node.js</li>
+                                <li>Bases de datos</li>
+                                <li>APIs</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <h3>Habilidades Blandas</h3>
+                    <div class="soft-skills">
+                        <span class="soft-skill">Trabajo en equipo</span>
+                        <span class="soft-skill">Aprendizaje continuo</span>
+                        <span class="soft-skill">Resolución de problemas</span>
+                        <span class="soft-skill">Adaptabilidad</span>
+                        <span class="soft-skill">Gestión del tiempo</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://github.com/danielvega023" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                </a>
+                <a href="mailto:danielvega0023@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                    Email
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Portafolio -->
+    <section id="portafolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Mi Portafolio</h2>
+            <p class="section-subtitle">Proyectos académicos y personales</p>
+            
+            <div class="portfolio-grid">
+                <!-- Proyecto 1 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="img/Proyecto 1.png" alt="Proyecto 1">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-links">
+                                <a href="https://landing-page2-kohl.vercel.app/?authuser=1" target="_blank" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/danielvega023/landing-page2" target="_blank" class="portfolio-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">El mounstro del chimi</h3>
+                        <p class="portfolio-description">Una página estilo Landing Page estilo Burguer King.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 2 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="img/Proyecto 2.png" alt="Proyecto 2">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-links">
+                                <a href="https://card-nike-fawn.vercel.app/" target="_blank" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/danielvega023/card-nike" target="_blank" class="portfolio-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Barcelona Shirt</h3>
+                        <p class="portfolio-description">Una página web que trata sobre una card con varias funcionalidades.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 3 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="img/Proyecto 3.png" alt="Proyecto 3">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-links">
+                                <a href="https://netflix-page-chi-henna.vercel.app/" target="_blank" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/danielvega023/netflix-page" target="_blank" class="portfolio-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Black Mirror</h3>
+                        <p class="portfolio-description">Una página réplica sobre la interfaz de Netflix en Black Mirror.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 4 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="img/Proyecto 4.png" alt="Proyecto 4">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-links">
+                                <a href="https://hover-page-pied.vercel.app/" target="_blank" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/danielvega023/hover-page" target="_blank" class="portfolio-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Dragon Ball Hover</h3>
+                        <p class="portfolio-description">Página de prueba para el hover de tres cards responsives.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="img/Proyecto 13.png" alt="Proyecto 13">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-links">
+                                <a href="https://login-page-zeta-ashy.vercel.app/" target="_blank" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/danielvega023/login-page" target="_blank" class="portfolio-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Login Page</h3>
+                        <p class="portfolio-description">Prueba para el inicio/login de una aplicación.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="img/Proyecto 15.png" alt="Proyecto 15">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-links">
+                                <a href="https://adidas-page-vert.vercel.app/" target="_blank" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/danielvega023/adidas-page" target="_blank" class="portfolio-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Adidas</h3>
+                        <p class="portfolio-description">Simulació, de página de los tenis Adidas Yeezy 700 V3 de Kanye West.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="img/Proyecto 16.png" alt="Proyecto 16">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-links">
+                                <a href="https://musica-nine-tau.vercel.app/" target="_blank" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/danielvega023/Musica" target="_blank" class="portfolio-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">24k Magic</h3>
+                        <p class="portfolio-description">Página de prueba para los controladores de audio y repaso de las cards en HTML.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="img/Proyecto 17.png" alt="Proyecto 17">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-links">
+                                <a href="https://paris-travel-zeta.vercel.app/" target="_blank" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/danielvega023/paris-travel" target="_blank" class="portfolio-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Paris Travel</h3>
+                        <p class="portfolio-description">Página de turismo sobre París y algunos sitios de renombre.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="img/Proyecto 18.png" alt="Proyecto 18">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-links">
+                                <a href="https://hover-page18.vercel.app/" target="_blank" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/danielvega023/hover-page18" target="_blank" class="portfolio-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Hover Page</h3>
+                        <p class="portfolio-description">Repaso del Hover con seis cards.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="img/Proyecto 19.png" alt="Proyecto 19">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-links">
+                                <a href="https://card-desplazamiento-iota.vercel.app/" target="_blank" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/danielvega023/card-desplazamiento" target="_blank" class="portfolio-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Card desplazamiento</h3>
+                        <p class="portfolio-description">Página de prueba para el desplazamiento de las cards al pasar el mouse.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Blog -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title">Mi Blog</h2>
+            <p class="section-subtitle">Reflexiones y aprendizajes sobre desarrollo web</p>
+            
+            <div class="blog-grid">
+                <!-- Entrada 1 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://via.placeholder.com/400x200" alt="Entrada de blog">
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">Vacío por ahora</h3>
+                        <p class="blog-excerpt">Vacío por ahora</p>
+                        <div class="blog-meta">
+                            <span class="blog-date"><i class="far fa-calendar"></i> Fecha</span>
+                            <a href="#" class="blog-link">Leer más <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Entrada 2 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://via.placeholder.com/400x200" alt="Entrada de blog">
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">Vacío por ahora</h3>
+                        <p class="blog-excerpt">Vacío por ahora</p>
+                        <div class="blog-meta">
+                            <span class="blog-date"><i class="far fa-calendar"></i> Fecha</span>
+                            <a href="#" class="blog-link">Leer más <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://via.placeholder.com/400x200" alt="Entrada de blog">
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">Vacío por ahora</h3>
+                        <p class="blog-excerpt">Vacío por ahora</p>
+                        <div class="blog-meta">
+                            <span class="blog-date"><i class="far fa-calendar"></i> Fecha</span>
+                            <a href="#" class="blog-link">Leer más <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <p class="section-subtitle">¿Tienes un proyecto en mente? ¡Hablemos!</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Información de contacto</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email personal</h4>
+                            <p>danielvega0023@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email institucional</h4>
+                            <p>danielalberto@marillac.edu.do</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Ubicación</h4>
+                            <p>República Dominicana, Santo Domingo, Jacobo Majluta, Ciudad Modelo, Calle Circunvalación, Res. La Gran Vereda IV #80</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <h4>Institución</h4>
+                            <p>Politécnico Santa Luisa de Marillac</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Asunto</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Enviar mensaje</button>
+                </form>
+            </div>
+            
+            <div class="back-to-course">
+                <a href="#" class="btn-secondary">Volver al portafolio del curso</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Daniel Alberto Vega Sandoval. Todos los derechos reservados.</p>
+            <p>Portafolio estudiantil en desarrollo continuo</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
